@@ -1,0 +1,1 @@
+export const esperColors = { Cosmos:'text-cyan-400 border-cyan-400/60', Anima:'text-green-400 border-green-400/60', Incantation:'text-red-400 border-red-400/60', Chaos:'text-purple-400 border-purple-400/60', Psyche:'text-blue-400 border-blue-400/60', Lakshana:'text-amber-400 border-amber-400/60' };

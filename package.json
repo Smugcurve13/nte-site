@@ -1,0 +1,12 @@
+{
+  "name": "nte-team-system",
+  "private": true,
+  "workspaces": ["server", "client"],
+  "scripts": {
+    "dev": "concurrently \"npm --workspace server run dev\" \"npm --workspace client run dev\"",
+    "build": "npm --workspace client run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
